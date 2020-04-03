@@ -18,6 +18,8 @@
       4) only active doctors can be added
 
       Use some styling library: Vuetify or Bootstrap-vie or Bulma - whatever you like
+
+      Setup Selenide tests (or vanilla Selenium) and make some test for every page.
     </pre>
   </div>
 
