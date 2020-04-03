@@ -4,7 +4,7 @@
 4) share your fork, or send the zip with completed assignment
 
 
-#How to start the app
+# How to start the app
 * Run backend from Intellij or with './gradlew bootRun'
 * Go to 'frontend' folder, execute 'npm run serve'
 * Application accessible at: <http://localhost:4200/>
