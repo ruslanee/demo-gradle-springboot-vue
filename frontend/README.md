@@ -1,7 +1,3 @@
-1) fork to the private repo
-2) start up backend and frontend
-3) follow the instructions on the Home page
-4) share your fork, or send the zip with completed assignment
 
 # frontend
 
