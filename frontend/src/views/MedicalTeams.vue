@@ -1,10 +1,10 @@
 <template>
   <div id="doctors">
-    Doctors-list goes here
+    Medical Teams list goes here
     <div>
       <ol>
-        <li v-for="doc in doctors" :key="doc.id">
-          {{ doc.firstName }} - {{ doc.lastName }}
+        <li v-for="team in teams" :key="team.id">
+          {{ team.name }}
         </li>
       </ol>
     </div>
@@ -17,12 +17,12 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
-      doctors: []
+      teams: []
     };
   },
   created() {
-    this.$http.get("/doctors/list").then(response => {
-      this.doctors = response.data;
+    this.$http.get("/teams/list").then(response => {
+      this.teams = response.data;
     });
   }
 });
