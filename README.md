@@ -1,7 +1,7 @@
-1) fork to the private repo
+1) copy this project
 2) start up backend and frontend
-3) follow the instructions on the Home page
-4) share your fork, or send the zip with completed assignment
+2) follow the instructions on the Home page
+3) send the zip with completed assignment
 
 
 # How to start the app
